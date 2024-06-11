@@ -32,7 +32,7 @@ if (isset($_POST['update'])) {
   <div class="row">
     <div class="col-md-4 mx-auto">
       <div class="card card-body">
-      <form action="edit.php?EmpCod=<?php echo $_GET['EmpCod']; ?>" method="POST">
+      <form action="edit_em.php?EmpCod=<?php echo $_GET['EmpCod']; ?>" method="POST">
         <div class="form-group">
           <input name="EmpNom" type="text" class="form-control" value="<?php echo $EmpNom; ?>" placeholder="Update Nombre">
         </div>
