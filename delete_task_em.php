@@ -12,7 +12,7 @@ if(isset($_GET['EmpCod'])) {
 
   $_SESSION['message'] = 'Task Removed Successfully';
   $_SESSION['message_type'] = 'danger';
-  header('Location: index.php');
+  header('Location: index_em.php');
 }
 
 ?>
