@@ -18,6 +18,9 @@
       <!-- ADD TASK FORM -->
       <div class="card card-body">
         <form action="save_task_gra.php" method="POST">
+        <div class="form-group">
+            <input type="text" name="codigo" class="form-control" placeholder="Código de Granja" autofocus>
+          </div>
           <div class="form-group">
             <input type="text" name="nombre" class="form-control" placeholder="Nombre de Granja" autofocus>
           </div>
@@ -33,7 +36,7 @@
           <div class="form-group">
             <input type="text" name="empresa" class="form-control" placeholder="Código de Empresa">
           </div>
-          <input type="submit" name="save_task" class="btn btn-success btn-block" value="Save Task">
+          <input type="submit" name="save_task" class="btn btn-success btn-block" value="Guardar Granja">
         </form>
       </div>
     </div>

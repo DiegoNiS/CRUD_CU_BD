@@ -33,7 +33,7 @@
           <div class="form-group">
             <input type="text" name="empresa" class="form-control" placeholder="Código de Empresa">
           </div>
-          <input type="submit" name="save_task" class="btn btn-success btn-block" value="Save Task">
+          <input type="submit" name="save_task" class="btn btn-success btn-block" value="guardar almacen">
         </form>
       </div>
     </div>

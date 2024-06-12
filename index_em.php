@@ -25,7 +25,7 @@
           <div class="form-group">
             <input type="text" name="detalle" class="form-control" placeholder="Detalle del Registro de Pedido" autofocus>
           </div>
-          <input type="submit" name="save_task" class="btn btn-success btn-block" value="Save Task">
+          <input type="submit" name="save_task" class="btn btn-success btn-block" value="Guardar empresa">
         </form>
       </div>
     </div>
